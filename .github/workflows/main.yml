@@ -1,4 +1,5 @@
 name: deepak
+
 on:
   push:
     branches: [ main ]
@@ -6,7 +7,6 @@ on:
 jobs:
   demo:
     runs-on: ubuntu-latest
-
-  steps:
-    - name: Greeting
-      run: echo "hello deepak"
+    steps:
+      - name: greeting
+        run: echo "hello deepak"
