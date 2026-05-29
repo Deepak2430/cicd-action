@@ -1,7 +1,7 @@
 name: deepak
 on:
   push:
-    branchs: [ main ]
+    branches: [ main ]
 
 jobs:
   demo:
@@ -9,4 +9,4 @@ jobs:
 
   steps:
     - name: greeting
-      runs: echo "hello deepak"
+      run: echo "hello deepak"
